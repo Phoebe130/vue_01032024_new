@@ -67,7 +67,6 @@ export default {
 
                 <!-- 刪除按鈕 -->
                 <button @click="removeTodo(index)" class="delete-btn">刪除
-                
                 </button>
                 
             </li>
