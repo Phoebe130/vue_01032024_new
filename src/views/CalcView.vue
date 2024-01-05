@@ -110,7 +110,7 @@ export default {
         輸出結果：{{ result }}
     </div>
 
-
+    <!-- 計算機 -->
     <div class="calculator">
         <div class="display">
             <input type="text" v-model="displayValue" disabled />
@@ -121,34 +121,33 @@ export default {
             </button>
         </div>
     </div>
-    
+
 
     <div class="box"> </div>
 </template>
 
 <!-- 目的是不要影響到其他區塊 -->
 <style lang="scss" scoped>
-
 .calculator {
     max-width: 300px;
     margin: auto;
     font-family: Arial, sans-serif;
-  }
-  
-  .display {
+}
+
+.display {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: right;
     font-size: 1.5em;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-  }
+}
 
-  
+
 .calc {
     //font-size: 42px;
 }

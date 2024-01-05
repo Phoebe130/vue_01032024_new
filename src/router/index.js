@@ -28,6 +28,11 @@ const router = createRouter({
       path:"/todolist",
       name:"todolist",
       component:()=>import('../views/TodoList.vue')
+    }    ,
+    {
+      path:"/uploadpic",
+      name:"uploadpic",
+      component:()=>import('../views/PicUpload.vue')
     }
   ]
 })
